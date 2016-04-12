@@ -55,7 +55,7 @@ describe('postcss-spanish-stylesheets', function () {
         test('a{ puntero: pointer; }', 'a{ cursor: pointer; }', { }, done);
     });
 
-    it('converts pointer to manito', function (done) {
+    it('converts manito to pointer', function (done) {
         test('a{ cursor: manito; }', 'a{ cursor: pointer; }', { }, done);
     });
 
