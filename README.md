@@ -14,7 +14,7 @@
     alto: 200px;
     flota: izquierda;
     arriba: 10px;
-    abajo: 0px;
+    abajo: 0;
     izquierda: 100px;
     derecha: 100px;
     espaciado: -1px;
